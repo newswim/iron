@@ -18,8 +18,8 @@ the internal error format used by the module and by the node API as well as othe
 
 - [**Introduction**](#introduction)
 <p></p>
-- [Usage][#usage]
- - [Options][#options]
+- [Usage](#usage)
+ - [Options](#options)
 <p></p>
 - [**Security Considerations**](#security-considerations)
   - [Plaintext Storage of Credentials](#plaintext-storage-of-credentials)
