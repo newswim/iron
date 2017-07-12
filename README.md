@@ -17,15 +17,15 @@ the internal error format used by the module and by the node API as well as othe
 # Table of Content
 
 - [**Introduction**](#introduction)
-<p></p>
-- [Usage](#usage)
- - [Options](#options)
-<p></p>
+<br /><br />
+ - [Usage](#usage)
+   - [Options](#options)
+<br /><br />
 - [**Security Considerations**](#security-considerations)
   - [Plaintext Storage of Credentials](#plaintext-storage-of-credentials)
-<p></p>
+<br /><br />
 - [**Frequently Asked Questions**](#frequently-asked-questions)
-<p></p>
+<br /><br />
 - [**Acknowledgements**](#acknowledgements)
 
 # Introduction
@@ -82,7 +82,7 @@ Iron.unseal(sealed, password, Iron.defaults, function (err, unsealed) {
 });
 ```
 
-### Options
+### <a name="options"></a>Options
 
 **iron** provides a few options for customizing the key deriviation algorithm used to generate encryption and integrity
 verification keys as well as the algorithms and salt sizes used. The _'seal()'_ and _'unseal()'_ methods take an options
